@@ -1,0 +1,31 @@
+gnd goes to gnd -ve  black 
+5v goes to +ve	white
+
+
+resistor gold side goes to +ve
+second side long side of led goes to other end of resistor green wire 3
+
+buzzer +ve goes to and -ve point attach to the circuit side -ve blue wire dpin2
+
+
+servo motor mega
+	yellow > yellow > dpin10
+	red > red > +ve
+	brown > orange > -ve
+
+servo motor
+	brown > brown > -ve
+	red > red >  +ve
+	yellow > yellow > dpin9
+
+ultrasonic sensor 
+   old
+	gnd > orange > orange >  -ve
+	echo > yellow > black >	dpin6
+	tri > brown > brown > dpin7
+	ucv > red > white > +ve
+   new
+	tri >	brown > orange > 7
+	vcc > 	black > yellow > +ve
+	echo > red > white > 6
+	gnd >	orange > brown > -ve
